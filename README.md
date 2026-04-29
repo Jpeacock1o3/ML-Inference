@@ -1,3 +1,5 @@
+This assignment was for my Data Intensive Computing Graduate Course
+
 # ML Inference API
 
 A production-grade REST API for serving real-time machine learning predictions, built with FastAPI and deployed via Docker. Designed for high concurrency, low-latency inference, and operational observability.
