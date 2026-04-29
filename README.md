@@ -203,12 +203,3 @@ pytest
 | `REDIS_TTL` | `300` | Cache TTL in seconds |
 | `MODEL_PATH` | `./models/classifier.joblib` | Path to serialized model |
 | `LOG_LEVEL` | `INFO` | Logging level |
-
-## Deployment (AWS EC2)
-
-1. Provision an EC2 instance (recommended: `t3.medium` or larger)
-2. Install Docker and Docker Compose on the instance
-3. Copy the project or clone from your repository
-4. Set production values in `.env` (strong passwords, `APP_ENV=production`)
-5. Run `docker-compose up -d`
-6. Configure your security group to expose port `8000` (or place behind an Application Load Balancer on port `80/443`)
